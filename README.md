@@ -24,4 +24,13 @@ Inital NN
         - Accuracy on test set : 93.96%
         (Accuracy while training (1000 iterations)-> 91.33666666666667%)
 
+    - architecture : [X,25,15,10],with He initialization, and inverted dropout with keep_prob = 0.98
+        - Accuracy on training set : 93.85166666666666%
+        - Accuracy on test set : 93.54%
+        (Accuracy while training (1000 iterations)-> 92.13166666666666%)
+
+    - architecture : [X,25,15,10],with He initialization, and gradient checking
+        - Accuracy on training set : 94.43666666666667%
+        - Accuracy on test set : 94.19999999999999%
+
     
