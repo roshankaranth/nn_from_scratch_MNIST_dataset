@@ -33,4 +33,25 @@ Inital NN
         - Accuracy on training set : 94.43666666666667%
         - Accuracy on test set : 94.19999999999999%
 
-    
+    - architecture : [X,25,15,10],with He initialization,
+        - Elapsed time : 399.93859601020813 seconds
+
+    - architecture : [X,25,15,10],with He initialization, mini-batch gd,
+        - Accuracy on training set : 99.565%
+        - Accuracy on test set : 95.41%
+
+    - architecture : [X,25,15,10],with He initialization, mini-batch gd, regularization_param = 0.8
+        - Accuracy on training set : 98.27333333333334%
+        - Accuracy on test set : 97.11999999999999%
+
+    - architecture : [X,25,15,10],with He initialization, mini-batch adam
+        - Accuracy on training set : 100.0%
+        - Accuracy on test set : 95.89%
+
+    - architecture : [X,25,15,10],with He initialization, mini-batch adam, regularization_param = 0.8
+        - Accuracy on training set : 98.23333333333333%
+        - Accuracy on test set : 97.28%
+
+    - architecture : [X,25,15,10],with He initialization, mini-batch adam, keep_prob = 0.8
+        - Accuracy on training set : 98.595%
+        - Accuracy on test set : 94.71000000000001%
