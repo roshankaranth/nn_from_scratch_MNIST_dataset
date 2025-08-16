@@ -55,3 +55,11 @@ Inital NN
     - architecture : [X,25,15,10],with He initialization, mini-batch adam, keep_prob = 0.8
         - Accuracy on training set : 98.595%
         - Accuracy on test set : 94.71000000000001%
+
+    - architecture : [X,25,15,10],with He initialization, mini-batch adam, keep_prob = 0.9
+        - Accuracy on training set : 99.51833333333333%
+        - Accuracy on test set : 95.16%
+
+    - architecture : [X,25,15,10],with He initialization, mini-batch adam, batch-norm
+        - Accuracy on training set : 100.0%
+        - Accuracy on test set : 95.81%
